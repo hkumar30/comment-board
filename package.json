@@ -1,0 +1,35 @@
+{
+  "name": "projectchuck",
+  "version": "1.0.0",
+  "description": "This is the project demonstrated by Charles (Chuck) Dries.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "express",
+    "node",
+    "node.js"
+  ],
+  "author": "Harsh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "index.js": "^0.0.3",
+    "ngrok": "^5.0.0-beta.2",
+    "node": "^21.2.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
